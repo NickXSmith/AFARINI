@@ -1,0 +1,152 @@
+* {
+    background-color: rgba(255,255,255,0.5);
+}
+
+img {
+    width: auto;
+    max-height: 100%;
+    overflow: hidden;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 15px;
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-bottom: solid 1px #b3b3b3;
+}
+
+header li {
+    list-style-type: none;
+    display: inline;
+    margin: 4px;
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+}
+
+#search {
+    padding-left: 2px;
+    background-color: #f2f2f2;
+    height: 25px;
+    width: 25px;
+}
+
+#logo {
+    background-color: #f2f2f2;
+}
+
+.banner {
+    width: 100%;
+    height: 550px;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.imgur.com/GNoPnf0.jpg");
+    flex-wrap: wrap;
+    padding-bottom: 15px;
+}
+
+#logo2 {
+    position: relative;
+    top: 5px;
+    left: 5px;
+    max-width: 20%;
+    min-height: 175px;
+    background: transparent;
+}
+
+
+.about {
+    max-width: 100%;
+    min-height: 175px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 25px;
+    background-color: white;
+}
+
+.about h1, .about p {
+    color: black;
+}
+
+.about h1 {
+    font-family: serif;
+    font-size: 50px;
+    text-shadow: 2px 2px 4px white;
+}
+
+.showcase-header {
+    width: 100%;
+    text-align: center;
+    font-size: 35px;
+    margin-bottom: -155px;
+}
+
+.showcase {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 35px;
+    border-bottom: solid 1px #b3b3b3;
+    gap: 175px;
+    background-image: url("https://i.imgur.com/ArvUTR5.jpg");
+}
+
+.box {
+    max-width: 30%;
+    text-align: center;
+}
+
+.box img {
+    min-width: 150px;
+    max-width: 300px;
+    min-height: 175px;
+    height: auto;
+}
+
+.crew {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 100px;
+    flex-wrap: wrap;
+    background-image: url("https://i.imgur.com/FdNrcOb.jpg");
+}
+
+.crew-header {
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+    height: 30px;
+}
+
+.bio {
+    width: 150px;
+    height: 375px;
+    text-align: center;
+}
+
+.bio h5 {
+    font-size: 18px;
+}
+
+.bio img {
+    width: 150px;
+    height: 200px;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
